@@ -123,7 +123,8 @@ section{padding:5rem 2rem}
 
 /* EDUCATION */
 .edu-section{background:var(--bg2)}
-.edu-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.2rem}
+.edu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem}
+@media(max-width:600px){.edu-grid{grid-template-columns:1fr}}
 .edu-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.4rem}
 .edu-degree{font-size:1rem;font-weight:600;color:#fff;margin-bottom:.2rem}
 .edu-school{font-size:13px;color:var(--teal);margin-bottom:.3rem}
